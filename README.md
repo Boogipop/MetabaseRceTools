@@ -9,14 +9,14 @@ CVE-2023-38646 Metabase RCE 工具
 
 - 输入指定网址即可检测未授权Token
 
-![image-20231011112444404](C:\Users\22927\AppData\Roaming\Typora\typora-user-images\image-20231011112444404.png)
+![image-20231011112444404](https://boogipop-1314143616.cos.ap-beijing.myqcloud.com/image-20231011112444404.png)
 
 ## 命令执行
 
 - 该模块首先需要执行验证模块获取token才可以使用
 - JarLocation：metabase.jar的位置，默认当前目录
 
-![image-20231011112525296](C:\Users\22927\AppData\Roaming\Typora\typora-user-images\image-20231011112525296.png)
+![image-20231011112525296](https://boogipop-1314143616.cos.ap-beijing.myqcloud.com/image-20231011112525296.png)
 
 ## 内存马注入
 
@@ -24,9 +24,9 @@ CVE-2023-38646 Metabase RCE 工具
 - x-client-data:cmd 给cmd请求头写命令即可
 - x-client-data:godzilla 直接连接哥斯拉，默认密码pass
 
-![image-20231011112542389](C:\Users\22927\AppData\Roaming\Typora\typora-user-images\image-20231011112542389.png)
+![image-20231011112542389](https://boogipop-1314143616.cos.ap-beijing.myqcloud.com/image-20231011112542389.png)
 
 
 
-![image-20231011112958066](C:\Users\22927\AppData\Roaming\Typora\typora-user-images\image-20231011112958066.png)
+![image-20231011112958066](https://boogipop-1314143616.cos.ap-beijing.myqcloud.com/image-20231011112958066.png)
 
